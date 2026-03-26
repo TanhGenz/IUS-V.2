@@ -6,6 +6,7 @@ const MenuArtistList = [
 
 ]
 
+
 export default function ArtistPage () {
     return (
         <section>

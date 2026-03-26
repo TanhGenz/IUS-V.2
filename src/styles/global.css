@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Tránh khoảng trắng / scroll ngang do phần tử tràn viewport */
+
+#root {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
+@font-face {
+    font-family: "Helve";
+    src: url("../assets/fonts/HelveticaNeue.ttc") format("opentype");
+  }

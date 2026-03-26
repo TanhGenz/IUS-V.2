@@ -7,6 +7,9 @@ export default {
         Primary: "#FF2020",
         secondary: "#B2B2B2"
       },
+      fontFamily: {
+        Primary: ["Helve", "sans-serif"],
+      }
     },
   },
   plugins: [],
