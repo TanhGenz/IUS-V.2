@@ -18,12 +18,12 @@ export default function HomePage() {
   return (
     <MainLayout
       hero={
-        <div className="px-[25px] py-[31px]">
+        <div className="py-[31px]">
           <img src="images/demo/demo-hero.png" alt="" />
         </div>
       }
       footer={
-        <div className="flex">
+        <div className="flex flex-1">
           {footerItems.map((item, index) => (
             <div
               key={index}

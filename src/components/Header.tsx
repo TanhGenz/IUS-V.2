@@ -15,7 +15,7 @@ export default function Header() {
           {/* menu buttons layouts */}
           <nav className="flex">
             {buttonsList.map((item, index) => (
-              <div key={index} className=" py-[42px] px-[10px] bg-Primary">
+              <div key={index} className=" py-[42px] px-[10px] ">
                 <p className="font-primary text-secondary text-[16px] font-medium">
                   {item}
                 </p>
